@@ -1,3 +1,7 @@
-html, body{ background-color:#000; }
-.preview{ margin:0; padding:10px; }
-.carousel{ position: absolute; height: 100% !important; }
+html, body{ background-color:#eceff1; -webkit-overflow-scrolling: touch; overflow: hidden; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; }
+#header{ position: absolute; top:0; width:100%; height:120px; background-color:#455a64; z-index:5; color:#fff; padding:25px 10px 0 10px; }	
+#weather{ position: absolute; left: 0; top: 120px; right: 0; bottom: 0;	overflow-y: scroll; }			
+#weather::-webkit-scrollbar { display: none; }
+.preview{ padding:10px; margin:5px; background-color:#fff; }
+.bold{ font-weight: 500; }
+h6{ font-size: 18px; }
